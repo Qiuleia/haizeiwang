@@ -1,0 +1,81 @@
+.tip-wrapper{
+    position: fixed;
+    bottom: 0.3703rem;
+    right: 0.1853rem;
+    color: white;
+    z-index: 9999;
+    /* margin-left: 0.3703rem; */
+}
+.tip-wrapper a{
+   text-decoration: none;
+   color: white;
+}
+a:hover{
+    color: red;
+}
+.tip-wrapper i.iconfont{
+    font-size: 0.7408rem;
+}
+.menu-wrapper{
+    height: 1.0185rem;
+    display: flex;
+   flex-direction: column-reverse;
+   overflow: hidden;
+   cursor: pointer;
+}
+.menu-wrapper:hover{
+    height: 6.4815rem;
+}
+.page,.menu,.music,.home,.top{
+    border: 0.0185rem solid black;
+    width: 0.926rem;
+    height: 0.926rem;
+    text-align: center;
+    line-height: 0.926rem;
+    margin-top: 0.3703rem;
+    border-radius: 0.1853rem;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.music{
+    position: relative;
+}
+.music i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+}
+.music i:nth-child(2){
+    font-size: 0.926rem;
+    z-index: 99;
+    display: block;
+}
+.music:hover{
+    color: red;
+}
+
+.page{
+  width: 0.7777rem;
+  height: 0.7777rem;
+    padding: 0.0925rem;
+    font-size: 0.2963rem;
+    line-height: 0.3703rem;
+}
+/* .music i.icon-yinle{
+    animation: rotate 5s 0s linear infinite forwards ;
+} */
+@keyframes rotate{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+@media screen and (max-width:1350px){
+    html{
+        font-size: 54px  !important;;
+    }
+}

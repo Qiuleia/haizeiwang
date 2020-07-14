@@ -1,0 +1,231 @@
+body,html{
+    position: relative;
+    height: 100vh;
+   
+    background-image: url(../img/picture/back.jpeg);
+    background-size: 25rem 100vh;
+    /* background-color: #333333; */
+   
+}
+img{
+    opacity: .9;
+}
+.wrapper{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 24.074rem;
+    height: 10.5555rem;
+    margin: auto;
+    
+    /* background-color: #333333; */
+}
+
+.content-wrapper{
+    position: absolute;
+    height: 100%;
+    width: 12.8703rem;
+    box-shadow: 0 0.0925rem 0.0925rem black;
+    /* background-color: #ffff00; */
+}
+.content{
+    width: 9.6297rem;
+    height: 6.8517rem;
+
+}
+.content img{
+   
+    box-shadow: 0 0.0925rem 0.0925rem black;
+    width: 9.2592rem;
+    height: 6.4815rem;
+    margin: 0.1853rem;
+}
+.content-top,.content-bottom {
+    position: relative;
+    width: 100%;
+    height: 1.8518rem;
+    /* background-color: #ff0000; */
+    overflow: hidden;
+}
+.content-top{
+    box-shadow: 0.0925rem 0.0925rem 0.0925rem inset white,-0.0925rem -0.0925rem 0.0925rem inset white;
+}
+.back{
+    position: absolute;
+    width: 6.4815rem;
+    left: 0;
+    right: 0;
+    padding-left: 0.3703rem;
+    margin: 0 auto;
+    z-index: 2;
+    color: red;
+    font-size: 1.2962rem;
+    text-align: center;
+    line-height: 1.8518rem;
+    letter-spacing: 0.3703rem;
+    opacity: 0;
+    transition: all .5s;
+}
+.content-top img{
+    position: absolute;
+    width: 100%;
+    height: 209%;
+    top: -0.963rem;
+    opacity: 1;
+    transition: all .5s;
+}
+.content-top:hover .back{
+    opacity: 1;
+}
+.content-top:hover img{
+    opacity: 0;
+}
+.content-bottom{
+    width: 12.7223rem;
+    left: 0.1668rem;
+    border-top: 0.0185rem solid rgba(255, 255, 255, 0.26);
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 0.0925rem 0.0925rem black;
+}
+.content-right{
+    border-top: 0.0185rem solid rgba(255, 255, 255, 0.37);
+    width: 3.1482rem;
+    height: 6.4815rem;
+    position: absolute;
+    top: 2.037rem;
+    right: 0;
+    overflow: hidden;
+    box-shadow: 0 0.0925rem 0.0925rem black;
+}
+.item-bottom1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.item-bottom2{
+    position: absolute;
+    top: 0;
+    left: 12.5925rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+.item-right1{
+    position: absolute;
+    top: -6.6668rem;
+}
+.item-right2{
+    position: absolute;
+    top:0;
+}
+.item{
+    flex-shrink: 0;
+    margin: 0.1853rem 0.1853rem;
+    width: 2.7778rem;
+    height: 1.4815rem;
+    /* background-color: slateblue; */
+    z-index: 2;
+    cursor: pointer;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+.river{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 10.7407rem;
+    width: 11.111rem;
+    overflow: hidden;
+   
+    /* background-color: #0000ff; */
+    /* display: flex;
+    justify-content: space-evenly; */
+
+}
+.river1{
+    position: absolute;
+    /* flex-shrink: 0; */
+    left: 0.2777rem;
+    margin: 0 0.1853rem;
+    width: 2.2222rem;
+    box-shadow: 0 0.0925rem 0.0925rem 0.0185rem black;
+    height: 10.5555rem;
+    overflow: hidden;
+    /* background-color: #fff; */
+}
+.river2{
+    position: absolute;
+    left: 2.963rem;
+    margin: 0 0.1853rem;
+    width: 2.2222rem;
+    box-shadow: 0 0.0925rem 0.0925rem 0.0185rem black;
+    height: 10.5555rem;
+    overflow: hidden;
+
+    /* background-color: #fff; */
+}
+.river3{
+    position: absolute;
+    left: 5.5555rem;
+    margin: 0 0.1853rem;
+    width: 2.2222rem;
+    box-shadow: 0 0.0925rem 0.0925rem 0.0185rem black;
+    /* background-color: #fff; */
+    height: 10.5555rem;
+    overflow: hidden;
+}
+.river4{
+    position: absolute;
+    right: 0.3703rem;
+    margin: 0 0.1853rem;
+    width: 2.2222rem;
+    box-shadow: 0 0.0925rem 0.0925rem 0.0185rem black;
+    /* background-color: #fff; */
+    height: 10.5555rem;
+    overflow: hidden;
+}
+.lists1{
+    top: 0;
+    position: absolute;
+}
+.lists2{
+    top: 11.8518rem;
+    position: absolute;
+}
+.lists3{
+    top: -11.8518rem;
+    position: absolute;
+}
+.lists4{
+    top: 0;
+    position: absolute;
+}
+.list{
+    width: 1.8518rem;
+    height: 2.7778rem;
+    margin: 0.1853rem;
+    /* background-color: green; */
+}
+.list img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:1350px){
+    html{
+        font-size: 54px  !important;;
+    }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "1842793",
+  "name": "icon2",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577346",
+      "name": "列表形式",
+      "font_class": "liebiaoxingshi",
+      "unicode": "e742",
+      "unicode_decimal": 59202
+    },
+    {
+      "icon_id": "577364",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e751",
+      "unicode_decimal": 59217
+    },
+    {
+      "icon_id": "577393",
+      "name": "顶部",
+      "font_class": "dingbu",
+      "unicode": "e76c",
+      "unicode_decimal": 59244
+    },
+    {
+      "icon_id": "577402",
+      "name": "向右1",
+      "font_class": "xiangyou1",
+      "unicode": "e775",
+      "unicode_decimal": 59253
+    },
+    {
+      "icon_id": "577406",
+      "name": "向左1",
+      "font_class": "xiangzuo1",
+      "unicode": "e779",
+      "unicode_decimal": 59257
+    },
+    {
+      "icon_id": "1094835",
+      "name": "禁止",
+      "font_class": "jinzhi",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "12321189",
+      "name": "音乐",
+      "font_class": "yinle",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    }
+  ]
+}

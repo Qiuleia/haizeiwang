@@ -1,0 +1,208 @@
+
+.bgc{ 
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-image: url(../img/video/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    z-index: -1;
+}
+.wrapper{
+    width: 18.5185rem;
+    margin: auto;
+    margin-top: 0.3703rem;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+.tittle{
+    position: relative;
+    width: 100%;
+    height: 2.037rem;
+    background-color: rgba(85, 83, 83, 0.623);
+    font-size: 0.926rem;
+    text-align: center;
+    line-height: 1.4815rem;
+    color: red;
+    letter-spacing: 0.5555rem;
+    margin-bottom: 0.3703rem;
+    border-bottom: 0.0185rem solid rgba(175, 162, 162, 0.836);
+    /* box-shadow: 0 0.2037rem 0.1853rem black; */
+}
+.tittle .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 7.4075rem;
+    padding-left: 0.5555rem;
+    margin: auto;
+    z-index: 2;
+}
+.face{
+position: absolute;
+transition: all .5s;
+}
+.back{
+width: 6.4815rem;
+position: absolute;
+left: 0;
+right: 0;
+margin: 0 auto;
+transform: rotateY(90deg);
+transition: all .5s;
+}
+.tittle:hover .back{
+  
+    transform: rotateX(0deg);
+}
+.tittle:hover .face{
+    
+    transform: rotateX(90deg);
+}
+.tittle .limg{
+    position: absolute;
+    top: 0;
+    left: 0.6482rem;
+    width: 4.6297rem;
+    height: 100%;
+    overflow: hidden;
+}
+.limg img{
+    position: absolute;
+    height: 1.8518rem;
+    top: 0.111rem;
+    width: 2.1298rem;
+    left: 1.2962rem;
+}
+.rimg{
+    position: absolute;
+    top: 0;
+    right: 0.5555rem;
+    width: 4.6297rem;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+.rimg img{
+    position: absolute;
+    top: -0.5555rem;
+    
+    left: 0;
+    width: 4.074rem;
+    height: 2.963rem;
+}
+.video {
+    margin: auto;
+    width: 17.7778rem;
+    height: 7.4075rem;
+    background-color: #000000dc;
+}
+video {
+    height: 100%;
+    width: 100%;
+}
+.content{
+   position: relative;
+    padding: 0.3703rem;
+    height: 7.963rem;
+   color: white;
+    background-color: rgba(0, 0, 0, 0.226);
+   
+}
+.category{
+    height: 0.5555rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.category div{
+    cursor: pointer;
+}
+.wrapper .bottom{
+    cursor: default;
+}
+.category div{
+    height: 0.5555rem;
+    font-size: 0.3703rem;
+    line-height: 0.5555rem;
+    width: 1.8518rem;
+    text-align: center;
+    border-bottom: 0.0185rem solid rgb(145, 139, 139);
+    padding-bottom: 0.0555rem;
+    color: rgb(155, 149, 149);
+}
+div .bottom{
+    width: 100%;
+    border-bottom: 0.0185rem solid rgb(158, 149, 149);
+}
+ div .chacked{
+    border: 0.0185rem solid rgb(146, 141, 141);
+    border-bottom:none;
+    color: red;
+}
+.totality{
+    position: absolute;
+    top: 0.9815rem;
+    width: 17.7222rem;
+    height: 7.4075rem;
+    border: 0.0185rem solid rgb(148, 141, 141);
+    border-top: none;
+    display: block;
+    overflow-y: scroll;
+}
+.totality ul{
+    margin: 0.3703rem;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+.totality li{
+    float: left;
+    width: 1.6667rem;
+    height: 0.5555rem;
+    text-align: center;
+    line-height: 0.5555rem;
+    margin: 0.1853rem;
+    border: 0.0185rem solid black;
+    border-radius: 0.0555rem;
+    cursor: pointer;
+}
+.describe{
+    position: absolute;
+    top: 0.9815rem;
+    width: 17.7222rem;
+    height: 7.4075rem;
+    border: 0.0185rem solid black;
+    border-top: none;
+    display: none;
+}
+.describe div{
+    width: 11.111rem;
+    height: 5.5555rem;
+    margin: 0.926rem auto;
+    font-size: 0.3703rem;
+    line-height: 0.5555rem;
+}
+.describe p:nth-child(1){
+    text-indent: 0.7408rem;
+}
+.describe p:nth-child(2){
+    margin-top: 0.3703rem;
+}
+.describe a{
+    color: red;
+}
+.describe ul{
+    margin-top: 0.1853rem;
+    margin-left: 1.111rem;
+    list-style: disc;
+}
+.describe li{
+    margin-bottom: 0.1853rem;
+}
+@media screen and (max-width:1350px){
+    html{
+        font-size: 54px  !important;;
+    }
+}
